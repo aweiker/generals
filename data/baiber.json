@@ -94,72 +94,72 @@
             "title": "Suppress",
             "levels": [
                 {
-                    "enemy_ground": {
+                    "enemyGround": {
                         "hp": 1
                     },
-                    "enemy_mounted": {
+                    "enemyMounted": {
                         "hp": 1
                     },
-                    "enemy_range": {
+                    "enemyRange": {
                         "hp": 1
                     },
-                    "enemy_siege": {
-                        "hp": 1
-                    }
-                },
-                {
-                    "enemy_ground": {
-                        "hp": 1
-                    },
-                    "enemy_mounted": {
-                        "hp": 1
-                    },
-                    "enemy_range": {
-                        "hp": 1
-                    },
-                    "enemy_siege": {
+                    "enemySiege": {
                         "hp": 1
                     }
                 },
                 {
-                    "enemy_ground": {
+                    "enemyGround": {
+                        "hp": 1
+                    },
+                    "enemyMounted": {
+                        "hp": 1
+                    },
+                    "enemyRange": {
+                        "hp": 1
+                    },
+                    "enemySiege": {
+                        "hp": 1
+                    }
+                },
+                {
+                    "enemyGround": {
                         "hp": 2
                     },
-                    "enemy_mounted": {
+                    "enemyMounted": {
                         "hp": 2
                     },
-                    "enemy_range": {
+                    "enemyRange": {
                         "hp": 2
                     },
-                    "enemy_siege": {
+                    "enemySiege": {
                         "hp": 2
                     }
                 },
                 {
-                    "enemy_ground": {
+                    "enemyGround": {
                         "hp": 2
                     },
-                    "enemy_mounted": {
+                    "enemyMounted": {
                         "hp": 2
                     },
-                    "enemy_range": {
+                    "enemyRange": {
                         "hp": 2
                     },
-                    "enemy_siege": {
+                    "enemySiege": {
                         "hp": 2
                     }
                 },
                 {
-                    "enemy_ground": {
+                    "enemyGround": {
                         "hp": 4
                     },
-                    "enemy_mounted": {
+                    "enemyMounted": {
                         "hp": 4
                     },
-                    "enemy_range": {
+                    "enemyRange": {
                         "hp": 4
                     },
-                    "enemy_siege": {
+                    "enemySiege": {
                         "hp": 4
                     }
                 }

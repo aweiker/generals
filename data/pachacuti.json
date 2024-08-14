@@ -6,18 +6,18 @@
         "title": "Son of the Sun",
         "description": "Reduces enemy troops' attack by 15% and reduces enemy ground troops and mounted troops' defense by 20% when General is leading the army.",
         "buffs": {
-            "enemy_ground": {
+            "enemyGround": {
                 "attack": 15,
                 "defense": 20
             },
-            "enemy_mounted": {
+            "enemyMounted": {
                 "attack": 15,
                 "defense": 20
             },
-            "enemy_range": {
+            "enemyRange": {
                 "attack": 15
             },
-            "enemy_siege": {
+            "enemySiege": {
                 "attack": 15
             }
         }
@@ -26,11 +26,11 @@
         {
             "description": "Enemy Ground Troop and Mounted Troop Defense -15% and HP -10%",
             "buffs": {
-                "enemy_ground": {
+                "enemyGround": {
                     "defense": 15,
                     "hp": 10
                 },
-                "enemy_mounted": {
+                "enemyMounted": {
                     "defense": 15,
                     "hp": 10
                 }
@@ -39,10 +39,10 @@
         {
             "description": "Enemy Ground Troop and Mounted Troop Defense -20%; when General is the Mayor, Training Speed in this Subordinate City +20%",
             "buffs": {
-                "enemy_ground": {
+                "enemyGround": {
                     "defense": 20
                 },
-                "enemy_mounted": {
+                "enemyMounted": {
                     "defense": 20
                 },
                 "trainingSpeed": 20
@@ -51,10 +51,10 @@
         {
             "description": "Enemy Ground Troop and Mounted Troop HP -20%; when General is the Mayor, Death into Survival Rate in this Subordinate City +20%",
             "buffs": {
-                "enemy_ground": {
+                "enemyGround": {
                     "hp": 20
                 },
-                "enemy_mounted": {
+                "enemyMounted": {
                     "hp": 20
                 },
                 "deathToSurvival": 20
@@ -63,11 +63,11 @@
         {
             "description": "Enemy Ground Troop and Mounted Troop Defense -15% and HP -25%",
             "buffs": {
-                "enemy_ground": {
+                "enemyGround": {
                     "defense": 15,
                     "hp": 25
                 },
-                "enemy_mounted": {
+                "enemyMounted": {
                     "defense": 15,
                     "hp": 25
                 }
@@ -76,11 +76,11 @@
         {
             "description": "Enemy Ground Troop and Mounted Troop Attack -20% and Defense -30%",
             "buffs": {
-                "enemy_ground": {
+                "enemyGround": {
                     "attack": 20,
                     "defense": 30
                 },
-                "enemy_mounted": {
+                "enemyMounted": {
                     "attack": 20,
                     "defense": 30
                 }
@@ -127,72 +127,72 @@
             "title": "Suppress",
             "levels": [
                 {
-                    "enemy_ground": {
+                    "enemyGround": {
                         "hp": 1
                     },
-                    "enemy_mounted": {
+                    "enemyMounted": {
                         "hp": 1
                     },
-                    "enemy_range": {
+                    "enemyRange": {
                         "hp": 1
                     },
-                    "enemy_siege": {
-                        "hp": 1
-                    }
-                },
-                {
-                    "enemy_ground": {
-                        "hp": 1
-                    },
-                    "enemy_mounted": {
-                        "hp": 1
-                    },
-                    "enemy_range": {
-                        "hp": 1
-                    },
-                    "enemy_siege": {
+                    "enemySiege": {
                         "hp": 1
                     }
                 },
                 {
-                    "enemy_ground": {
+                    "enemyGround": {
+                        "hp": 1
+                    },
+                    "enemyMounted": {
+                        "hp": 1
+                    },
+                    "enemyRange": {
+                        "hp": 1
+                    },
+                    "enemySiege": {
+                        "hp": 1
+                    }
+                },
+                {
+                    "enemyGround": {
                         "hp": 2
                     },
-                    "enemy_mounted": {
+                    "enemyMounted": {
                         "hp": 2
                     },
-                    "enemy_range": {
+                    "enemyRange": {
                         "hp": 2
                     },
-                    "enemy_siege": {
+                    "enemySiege": {
                         "hp": 2
                     }
                 },
                 {
-                    "enemy_ground": {
+                    "enemyGround": {
                         "hp": 2
                     },
-                    "enemy_mounted": {
+                    "enemyMounted": {
                         "hp": 2
                     },
-                    "enemy_range": {
+                    "enemyRange": {
                         "hp": 2
                     },
-                    "enemy_siege": {
+                    "enemySiege": {
                         "hp": 2
                     }
                 },
                 {
-                    "enemy_ground": {
+                    "enemyGround": {
                         "hp": 4
                     },
-                    "enemy_mounted": {
+                    "enemyMounted": {
                         "hp": 4
                     },
-                    "enemy_range": {
+                    "enemyRange": {
                         "hp": 4
                     },
-                    "enemy_siege": {
+                    "enemySiege": {
                         "hp": 4
                     }
                 }
@@ -242,31 +242,31 @@
             "title": "Conquest of the Chankas",
             "levels": [
                 {
-                    "enemy_ground": {
+                    "enemyGround": {
                         "attack": 1,
                         "hp": 2
                     }
                 },
                 {
-                    "enemy_ground": {
+                    "enemyGround": {
                         "attack": 2,
                         "hp": 3
                     }
                 },
                 {
-                    "enemy_ground": {
+                    "enemyGround": {
                         "attack": 3,
                         "hp": 5
                     }
                 },
                 {
-                    "enemy_ground": {
+                    "enemyGround": {
                         "attack": 3,
                         "hp": 5
                     }
                 },
                 {
-                    "enemy_ground": {
+                    "enemyGround": {
                         "attack": 6,
                         "hp": 10
                     }

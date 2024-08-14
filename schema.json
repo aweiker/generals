@@ -137,19 +137,19 @@
                     "$ref": "#/$defs/attributes",
                     "description": "The buffs the general provides to siege troops"
                 },
-                "enemy_ground": {
+                "enemyGround": {
                     "$ref": "#/$defs/attributes",
                     "description": "The buffs the general provides to ground troops"
                 },
-                "enemy_mounted": {
+                "enemyMounted": {
                     "$ref": "#/$defs/attributes",
                     "description": "The buffs the general provides to mounted troops"
                 },
-                "enemy_range": {
+                "enemyRange": {
                     "$ref": "#/$defs/attributes",
                     "description": "The buffs the general provides to ranged troops"
                 },
-                "enemy_siege": {
+                "enemySiege": {
                     "$ref": "#/$defs/attributes",
                     "description": "The buffs the general provides to siege troops"
                 },

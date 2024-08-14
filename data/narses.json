@@ -6,11 +6,11 @@
         "title": "Hammer of the Goths",
         "description": "Reduces enemy ground troops' attack by 50% and enemy ground troops and mounted troops' defense by 40% when General is leading the army.",
         "buffs": {
-            "enemy_ground": {
+            "enemyGround": {
                 "attack": 50,
                 "defense": 40
             },
-            "enemy_mounted": {
+            "enemyMounted": {
                 "defense": 40
             }
         }
@@ -19,13 +19,13 @@
         {
             "description": "Enemy Ground Troop and Mounted Troop Defense -10%, Enemy Ranged Troop and Siege Machine HP -20%.",
             "buffs": {
-                "enemy_ground": {
+                "enemyGround": {
                     "defense": 10
                 },
-                "enemy_range": {
+                "enemyRange": {
                     "hp": 20
                 },
-                "enemy_siege": {
+                "enemySiege": {
                     "hp": 20
                 }
             }
@@ -33,7 +33,7 @@
         {
             "description": "Enemy Ground Troop Defense -20%; when General is the Mayor, Death into Survival Rate in this Subordinate City +20%.",
             "buffs": {
-                "enemy_ground": {
+                "enemyGround": {
                     "defense": 20
                 },
                 "deathToSurvival": 20
@@ -42,7 +42,7 @@
         {
             "description": "Enemy Ground Troop HP -20%; when General is the Mayor, Traning Speed in this Subordinate City +20%.",
             "buffs": {
-                "enemy_ground": {
+                "enemyGround": {
                     "hp": 20
                 },
                 "trainingSpeed": 20
@@ -51,11 +51,11 @@
         {
             "description": "Enemy Ranged Troop and Siege Machine Defense -25% and HP -25%.",
             "buffs": {
-                "enemy_range": {
+                "enemyRange": {
                     "defense": 25,
                     "hp": 25
                 },
-                "enemy_siege": {
+                "enemySiege": {
                     "defense": 25,
                     "hp": 25
                 }
@@ -64,12 +64,12 @@
         {
             "description": "Enemy Ground Troop Attack -30%, Enemy Ground Troop and Mounted Troop Defense and HP -15%.",
             "buffs": {
-                "enemy_ground": {
+                "enemyGround": {
                     "attack": 30,
                     "defense": 15,
                     "hp": 15
                 },
-                "enemy_mounted": {
+                "enemyMounted": {
                     "defense": 15,
                     "hp": 15
                 }
@@ -116,72 +116,72 @@
             "title": "Snipe",
             "levels": [
                 {
-                    "enemy_ground": {
+                    "enemyGround": {
                         "attack": 1
                     },
-                    "enemy_mounted": {
+                    "enemyMounted": {
                         "attack": 1
                     },
-                    "enemy_range": {
+                    "enemyRange": {
                         "attack": 1
                     },
-                    "enemy_siege": {
-                        "attack": 1
-                    }
-                },
-                {
-                    "enemy_ground": {
-                        "attack": 1
-                    },
-                    "enemy_mounted": {
-                        "attack": 1
-                    },
-                    "enemy_range": {
-                        "attack": 1
-                    },
-                    "enemy_siege": {
+                    "enemySiege": {
                         "attack": 1
                     }
                 },
                 {
-                    "enemy_ground": {
+                    "enemyGround": {
+                        "attack": 1
+                    },
+                    "enemyMounted": {
+                        "attack": 1
+                    },
+                    "enemyRange": {
+                        "attack": 1
+                    },
+                    "enemySiege": {
+                        "attack": 1
+                    }
+                },
+                {
+                    "enemyGround": {
                         "attack": 2
                     },
-                    "enemy_mounted": {
+                    "enemyMounted": {
                         "attack": 2
                     },
-                    "enemy_range": {
+                    "enemyRange": {
                         "attack": 2
                     },
-                    "enemy_siege": {
+                    "enemySiege": {
                         "attack": 2
                     }
                 },
                 {
-                    "enemy_ground": {
+                    "enemyGround": {
                         "attack": 2
                     },
-                    "enemy_mounted": {
+                    "enemyMounted": {
                         "attack": 2
                     },
-                    "enemy_range": {
+                    "enemyRange": {
                         "attack": 2
                     },
-                    "enemy_siege": {
+                    "enemySiege": {
                         "attack": 2
                     }
                 },
                 {
-                    "enemy_ground": {
+                    "enemyGround": {
                         "attack": 4
                     },
-                    "enemy_mounted": {
+                    "enemyMounted": {
                         "attack": 4
                     },
-                    "enemy_range": {
+                    "enemyRange": {
                         "attack": 4
                     },
-                    "enemy_siege": {
+                    "enemySiege": {
                         "attack": 4
                     }
                 }
@@ -266,56 +266,56 @@
             "title": "Battle of Taginae",
             "levels": [
                 {
-                    "enemy_ground": {
+                    "enemyGround": {
                         "attack": 3,
                         "defense": 2,
                         "hp": 2
                     },
-                    "enemy_mounted": {
+                    "enemyMounted": {
                         "defense": 2,
                         "hp": 2
                     }
                 },
                 {
-                    "enemy_ground": {
+                    "enemyGround": {
                         "attack": 4,
                         "defense": 3,
                         "hp": 3
                     },
-                    "enemy_mounted": {
+                    "enemyMounted": {
                         "defense": 3,
                         "hp": 3
                     }
                 },
                 {
-                    "enemy_ground": {
+                    "enemyGround": {
                         "attack": 7,
                         "defense": 5,
                         "hp": 5
                     },
-                    "enemy_mounted": {
+                    "enemyMounted": {
                         "defense": 5,
                         "hp": 5
                     }
                 },
                 {
-                    "enemy_ground": {
+                    "enemyGround": {
                         "attack": 7,
                         "defense": 5,
                         "hp": 5
                     },
-                    "enemy_mounted": {
+                    "enemyMounted": {
                         "defense": 5,
                         "hp": 5
                     }
                 },
                 {
-                    "enemy_ground": {
+                    "enemyGround": {
                         "attack": 14,
                         "defense": 10,
                         "hp": 10
                     },
-                    "enemy_mounted": {
+                    "enemyMounted": {
                         "defense": 10,
                         "hp": 10
                     }

@@ -6,10 +6,10 @@
         "title": "Suprise Attack",
         "description": "Reduces enemy ranged troops' attack by 30% and enemy siege machines' attack by 20% when General is leading the army.",
         "buffs": {
-            "enemy_range": {
+            "enemyRange": {
                 "attack": 30
             },
-            "enemy_siege": {
+            "enemySiege": {
                 "attack": 20
             }
         }
@@ -18,11 +18,11 @@
         {
             "description": "Enemy Ranged Troop and Siege Machine Attack -5% and HP -10%",
             "buffs": {
-                "enemy_range": {
+                "enemyRange": {
                     "attack": 5,
                     "hp": 10
                 },
-                "enemy_siege": {
+                "enemySiege": {
                     "attack": 5,
                     "hp": 10
                 }
@@ -31,10 +31,10 @@
         {
             "description": "Enemy Ranged Troop and Siege Machine Defense -10%; when General is the Mayor, Training Speed in this Subordinate City +20%",
             "buffs": {
-                "enemy_range": {
+                "enemyRange": {
                     "defense": 10
                 },
-                "enemy_siege": {
+                "enemySiege": {
                     "defense": 10
                 },
                 "trainingSpeed": 20
@@ -43,10 +43,10 @@
         {
             "description": "Enemy Ranged Troop and Siege Machine HP -15%; when General is the Mayor, Death into Survival Rate in this Subordinate City +10%",
             "buffs": {
-                "enemy_range": {
+                "enemyRange": {
                     "hp": 15
                 },
-                "enemy_siege": {
+                "enemySiege": {
                     "hp": 15
                 },
                 "deathToSurvival": 10
@@ -55,11 +55,11 @@
         {
             "description": "Enemy Ranged Troop and Siege Machine Attack -10% and Defense -10%",
             "buffs": {
-                "enemy_range": {
+                "enemyRange": {
                     "attack": 10,
                     "defense": 10
                 },
-                "enemy_siege": {
+                "enemySiege": {
                     "attack": 10,
                     "defense": 10
                 }
@@ -68,12 +68,12 @@
         {
             "description": "Enemy Ranged Troop and Siege Machine Attack, Defense and HP -10%",
             "buffs": {
-                "enemy_range": {
+                "enemyRange": {
                     "attack": 10,
                     "defense": 10,
                     "hp": 10
                 },
-                "enemy_siege": {
+                "enemySiege": {
                     "attack": 10,
                     "defense": 10,
                     "hp": 10
@@ -84,16 +84,16 @@
     "skin": {
         "title": "Divin Guardian - Baldwin IV",
         "buffs": {
-            "enemy_ground": {
+            "enemyGround": {
                 "hp": 10
             },
-            "enemy_mounted": {
+            "enemyMounted": {
                 "hp": 10
             },
-            "enemy_range": {
+            "enemyRange": {
                 "attack": 5
             },
-            "enemy_siege": {
+            "enemySiege": {
                 "attack": 5
             }
         }
@@ -138,73 +138,73 @@
             "title": "Snipe",
             "levels": [
                 {
-                    "enemy_ground": {
+                    "enemyGround": {
                         "attack": 1
                     },
-                    "enemy_mounted": {
+                    "enemyMounted": {
                         "attack": 1
                     },
-                    "enemy_range": {
+                    "enemyRange": {
                         "attack": 1
                     },
-                    "enemy_siege": {
+                    "enemySiege": {
                         "attack": 1
                     }
                 },
 
                 {
-                    "enemy_ground": {
+                    "enemyGround": {
                         "attack": 1
                     },
-                    "enemy_mounted": {
+                    "enemyMounted": {
                         "attack": 1
                     },
-                    "enemy_range": {
+                    "enemyRange": {
                         "attack": 1
                     },
-                    "enemy_siege": {
+                    "enemySiege": {
                         "attack": 1
                     }
                 },
                 {
-                    "enemy_ground": {
+                    "enemyGround": {
                         "attack": 2
                     },
-                    "enemy_mounted": {
+                    "enemyMounted": {
                         "attack": 2
                     },
-                    "enemy_range": {
+                    "enemyRange": {
                         "attack": 2
                     },
-                    "enemy_siege": {
-                        "attack": 2
-                    }
-                },
-                {
-                    "enemy_ground": {
-                        "attack": 2
-                    },
-                    "enemy_mounted": {
-                        "attack": 2
-                    },
-                    "enemy_range": {
-                        "attack": 2
-                    },
-                    "enemy_siege": {
+                    "enemySiege": {
                         "attack": 2
                     }
                 },
                 {
-                    "enemy_ground": {
+                    "enemyGround": {
+                        "attack": 2
+                    },
+                    "enemyMounted": {
+                        "attack": 2
+                    },
+                    "enemyRange": {
+                        "attack": 2
+                    },
+                    "enemySiege": {
+                        "attack": 2
+                    }
+                },
+                {
+                    "enemyGround": {
                         "attack": 4
                     },
-                    "enemy_mounted": {
+                    "enemyMounted": {
                         "attack": 4
                     },
-                    "enemy_range": {
+                    "enemyRange": {
                         "attack": 4
                     },
-                    "enemy_siege": {
+                    "enemySiege": {
                         "attack": 4
                     }
                 }
@@ -254,51 +254,51 @@
             "title": "Battle of Montgisard",
             "levels": [
                 {
-                    "enemy_range": {
+                    "enemyRange": {
                         "attack": 2,
                         "hp": 1
                     },
-                    "enemy_siege": {
-                        "attack": 2,
-                        "hp": 1
-                    }
-                },
-                {
-                    "enemy_range": {
-                        "attack": 2,
-                        "hp": 1
-                    },
-                    "enemy_siege": {
+                    "enemySiege": {
                         "attack": 2,
                         "hp": 1
                     }
                 },
                 {
-                    "enemy_range": {
+                    "enemyRange": {
+                        "attack": 2,
+                        "hp": 1
+                    },
+                    "enemySiege": {
+                        "attack": 2,
+                        "hp": 1
+                    }
+                },
+                {
+                    "enemyRange": {
                         "attack": 4,
                         "hp": 2
                     },
-                    "enemy_siege": {
+                    "enemySiege": {
                         "attack": 4,
                         "hp": 2
                     }
                 },
                 {
-                    "enemy_range": {
+                    "enemyRange": {
                         "attack": 4,
                         "hp": 2
                     },
-                    "enemy_siege": {
+                    "enemySiege": {
                         "attack": 4,
                         "hp": 2
                     }
                 },
                 {
-                    "enemy_range": {
+                    "enemyRange": {
                         "attack": 8,
                         "hp": 4
                     },
-                    "enemy_siege": {
+                    "enemySiege": {
                         "attack": 8,
                         "hp": 4
                     }
