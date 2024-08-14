@@ -1,3 +1,15 @@
+.PHONY: run test
+
+app/models.py: schema.json
+	$(VENV)/datamodel-codegen --input schema.json --output app/models.py --class-name General --input-file-type jsonschema
+
+run: app/models.py venv
+	$(VENV)/fastapi dev --reload
+
+test: app/models.py venv
+	$(VENV)/python -m unittest tests/test_*.py
+
+
 include Makefile.venv
 Makefile.venv:
 	curl \

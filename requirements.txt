@@ -1,0 +1,5 @@
+jsonschema
+parameterized
+fastapi[standard]
+datamodel-code-generator
+uvicorn[standard]
