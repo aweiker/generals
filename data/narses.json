@@ -17,19 +17,63 @@
     },
     "ascensions": [
         {
-            "description": "Enemy Ground Troop and Mounted Troop Defense -10%, Enemy Ranged Troop and Siege Machine HP -20%."
+            "description": "Enemy Ground Troop and Mounted Troop Defense -10%, Enemy Ranged Troop and Siege Machine HP -20%.",
+            "buffs": {
+                "enemy_ground": {
+                    "defense": 10
+                },
+                "enemy_range": {
+                    "hp": 20
+                },
+                "enemy_siege": {
+                    "hp": 20
+                }
+            }
         },
         {
-            "description": "Enemy Ground Troop Defense -20%; when General is the Mayor, Death into Survival Rate in this Subordinate City +20%."
+            "description": "Enemy Ground Troop Defense -20%; when General is the Mayor, Death into Survival Rate in this Subordinate City +20%.",
+            "buffs": {
+                "enemy_ground": {
+                    "defense": 20
+                },
+                "deathToSurvival": 20
+            }
         },
         {
-            "description": "Enemy Ground Troop HP -20%; when General is the Mayor, Traning Speed in this Subordinate City +20%."
+            "description": "Enemy Ground Troop HP -20%; when General is the Mayor, Traning Speed in this Subordinate City +20%.",
+            "buffs": {
+                "enemy_ground": {
+                    "hp": 20
+                },
+                "trainingSpeed": 20
+            }
         },
         {
-            "description": "Enemy Ranged Troop and Siege Machine Defense -25% and HP -25%."
+            "description": "Enemy Ranged Troop and Siege Machine Defense -25% and HP -25%.",
+            "buffs": {
+                "enemy_range": {
+                    "defense": 25,
+                    "hp": 25
+                },
+                "enemy_siege": {
+                    "defense": 25,
+                    "hp": 25
+                }
+            }
         },
         {
-            "description": "Enemy Ground Troop Attack -30%, Enemy Ground Troop and Mounted Troop Defense and HP -15%."
+            "description": "Enemy Ground Troop Attack -30%, Enemy Ground Troop and Mounted Troop Defense and HP -15%.",
+            "buffs": {
+                "enemy_ground": {
+                    "attack": 30,
+                    "defense": 15,
+                    "hp": 15
+                },
+                "enemy_mounted": {
+                    "defense": 15,
+                    "hp": 15
+                }
+            }
         }
     ],
     "specialties": [
@@ -147,34 +191,74 @@
             "title": "War God",
             "levels": [
                 {
-                    "ground": { "attack": 1 },
-                    "mounted": { "attack": 1 },
-                    "range": { "attack": 1 },
-                    "siege": { "attack": 1 }
+                    "ground": {
+                        "attack": 1
+                    },
+                    "mounted": {
+                        "attack": 1
+                    },
+                    "range": {
+                        "attack": 1
+                    },
+                    "siege": {
+                        "attack": 1
+                    }
                 },
                 {
-                    "ground": { "attack": 1 },
-                    "mounted": { "attack": 1 },
-                    "range": { "attack": 1 },
-                    "siege": { "attack": 1 }
+                    "ground": {
+                        "attack": 1
+                    },
+                    "mounted": {
+                        "attack": 1
+                    },
+                    "range": {
+                        "attack": 1
+                    },
+                    "siege": {
+                        "attack": 1
+                    }
                 },
                 {
-                    "ground": { "attack": 1 },
-                    "mounted": { "attack": 1 },
-                    "range": { "attack": 1 },
-                    "siege": { "attack": 1 }
+                    "ground": {
+                        "attack": 1
+                    },
+                    "mounted": {
+                        "attack": 1
+                    },
+                    "range": {
+                        "attack": 1
+                    },
+                    "siege": {
+                        "attack": 1
+                    }
                 },
                 {
-                    "ground": { "attack": 2 },
-                    "mounted": { "attack": 2 },
-                    "range": { "attack": 2 },
-                    "siege": { "attack": 2 }
+                    "ground": {
+                        "attack": 2
+                    },
+                    "mounted": {
+                        "attack": 2
+                    },
+                    "range": {
+                        "attack": 2
+                    },
+                    "siege": {
+                        "attack": 2
+                    }
                 },
                 {
-                    "ground": { "attack": 2 },
-                    "mounted": { "attack": 2 },
-                    "range": { "attack": 2 },
-                    "siege": { "attack": 2 }
+                    "ground": {
+                        "attack": 2
+                    },
+                    "mounted": {
+                        "attack": 2
+                    },
+                    "range": {
+                        "attack": 2
+                    },
+                    "siege": {
+                        "attack": 2
+                    }
                 }
             ]
         },
