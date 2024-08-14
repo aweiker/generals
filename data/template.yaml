@@ -1,0 +1,98 @@
+$schema: "../schema.json"
+
+name: Baiber
+skill:
+  title: Father of Conquest
+  description: Grants you a 25% Double Item Drop Rate from Monsters when General is leading the army.
+  attributes:
+    double_item: 25%
+  ascensions:
+    - description: When attacking Monsters, Troops Defense +5% and HP +10%
+      attributes:
+        monsters:
+          defense: 5%
+          hp: 10%
+    - description: When attacking Monsters, Troops Defense +20%
+    - description: When attacking Monsters, Troops HP +20%
+    - description: When attacking Monsters, Troops Defense +15% and HP +10%
+    - description: When attacking Monsters, Troops Attack +20%
+specialties:
+  - title: Mounted Troop Formation
+    - attribute:
+      mounted:
+        attack: +1%
+        defense: +1%
+    - attribute:
+      mounted:
+        attack: +1%
+        defense: +1%
+    - attribute:
+      mounted:
+        attack: +2%
+        defense: +2%
+    - attribute:
+      mounted:
+        attack: +2%
+        defense: +2%
+    - attribute:
+      mounted:
+        attack: +4%
+        defense: +4%
+  - title: Suppress
+    - attribute:
+      enemy_troop:
+        hp: -1%
+    - attribute:
+      enemy_troop:
+        hp: -1%
+    - attribute:
+      enemy_troop:
+        hp: -2%
+    - attribute:
+      enemy_troop:
+        hp: -2%
+    - attribute:
+      enemy_troop:
+        hp: -4%
+  - title: Mounted Troop Ares
+    - attribute:
+      mounted:
+        attack: +1%
+        defense: +1%
+        hp: +1%
+    - attribute:
+      mounted:
+        attack: +1%
+        defense: +1%
+        hp: +1%
+    - attribute:
+      mounted:
+        attack: +2%
+        defense: +2%
+        hp: +2%
+    - attribute:
+      mounted:
+        attack: +2%
+        defense: +2%
+        hp: +2%
+    - attribute:
+      mounted:
+        attack: +4%
+        defense: +4%
+        hp: +4%
+  - title: Battle of Ain Zara
+    - attribute:
+      double_item: +2%
+      march_time: +1%
+    - attribute:
+      double_item: +2%
+      march_time: +1%
+    - attribute:
+      double_item: +3%
+      march_time: +2%
+    - attribute:
+      double_item: +3%
+      march_time: +2%
+    - attribute:
+      double_item: +6%
+      march_time: +4%

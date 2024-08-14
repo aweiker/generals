@@ -1,0 +1,234 @@
+{
+    "$schema": "../schema.json",
+    "name": "Baiber",
+    "skill": {
+        "title": "Father of Conquest",
+        "description": "Grants you a 25% Double Item Drop Rate from Monsters when General is leading the army.",
+        "buffs": {
+            "doubleDrop": 25
+        }
+    },
+    "ascensions": [
+        {
+            "description": "When attacking Monsters, Troops Defense +5% and HP +10%",
+            "buffs": {
+                "monster": {
+                    "defense": 5,
+                    "hp": 10
+                }
+            }
+        },
+        {
+            "description": "When attacking Monsters, Troops Defense +20%",
+            "buffs": {
+                "monster": {
+                    "defense": 20
+                }
+            }
+        },
+        {
+            "description": "When attacking Monsters, Troops HP +20%",
+            "buffs": {
+                "monster": {
+                    "hp": 20
+                }
+            }
+        },
+        {
+            "description": "When attacking Monsters, Troops Defense +15% and HP +10%",
+            "buffs": {
+                "monster": {
+                    "defense": 15,
+                    "hp": 10
+                }
+            }
+        },
+        {
+            "description": "When attacking Monsters, Troops Attack +20%",
+            "buffs": {
+                "monster": {
+                    "attack": 20
+                }
+            }
+        }
+    ],
+    "specialties": [
+        {
+            "title": "Mounted Troop Formation",
+            "levels": [
+                {
+                    "mounted": {
+                        "attack": 1,
+                        "defense": 1
+                    }
+                },
+                {
+                    "mounted": {
+                        "attack": 1,
+                        "defense": 1
+                    }
+                },
+                {
+                    "mounted": {
+                        "attack": 2,
+                        "defense": 2
+                    }
+                },
+                {
+                    "mounted": {
+                        "attack": 2,
+                        "defense": 2
+                    }
+                },
+                {
+                    "mounted": {
+                        "attack": 4,
+                        "defense": 4
+                    }
+                }
+            ]
+        },
+
+        {
+            "title": "Suppress",
+            "levels": [
+                {
+                    "enemy_ground": {
+                        "hp": 1
+                    },
+                    "enemy_mounted": {
+                        "hp": 1
+                    },
+                    "enemy_range": {
+                        "hp": 1
+                    },
+                    "enemy_siege": {
+                        "hp": 1
+                    }
+                },
+                {
+                    "enemy_ground": {
+                        "hp": 1
+                    },
+                    "enemy_mounted": {
+                        "hp": 1
+                    },
+                    "enemy_range": {
+                        "hp": 1
+                    },
+                    "enemy_siege": {
+                        "hp": 1
+                    }
+                },
+                {
+                    "enemy_ground": {
+                        "hp": 2
+                    },
+                    "enemy_mounted": {
+                        "hp": 2
+                    },
+                    "enemy_range": {
+                        "hp": 2
+                    },
+                    "enemy_siege": {
+                        "hp": 2
+                    }
+                },
+                {
+                    "enemy_ground": {
+                        "hp": 2
+                    },
+                    "enemy_mounted": {
+                        "hp": 2
+                    },
+                    "enemy_range": {
+                        "hp": 2
+                    },
+                    "enemy_siege": {
+                        "hp": 2
+                    }
+                },
+                {
+                    "enemy_ground": {
+                        "hp": 4
+                    },
+                    "enemy_mounted": {
+                        "hp": 4
+                    },
+                    "enemy_range": {
+                        "hp": 4
+                    },
+                    "enemy_siege": {
+                        "hp": 4
+                    }
+                }
+            ]
+        },
+
+        {
+            "title": "Mounted Troop Ares",
+            "levels": [
+                {
+                    "mounted": {
+                        "attack": 1,
+                        "defense": 1,
+                        "hp": 1
+                    }
+                },
+                {
+                    "mounted": {
+                        "attack": 1,
+                        "defense": 1,
+                        "hp": 1
+                    }
+                },
+                {
+                    "mounted": {
+                        "attack": 2,
+                        "defense": 2,
+                        "hp": 2
+                    }
+                },
+                {
+                    "mounted": {
+                        "attack": 2,
+                        "defense": 2,
+                        "hp": 2
+                    }
+                },
+                {
+                    "mounted": {
+                        "attack": 4,
+                        "defense": 4,
+                        "hp": 4
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Battle of Ain Zara",
+            "levels": [
+                {
+                    "doubleDrop": 2,
+                    "marchSpeed": 1
+                },
+                {
+                    "doubleDrop": 2,
+                    "marchSpeed": 1
+                },
+                {
+                    "doubleDrop": 3,
+                    "marchSpeed": 2
+                },
+                {
+                    "doubleDrop": 3,
+                    "marchSpeed": 2
+                },
+                {
+                    "doubleDrop": 6,
+                    "marchSpeed": 4
+                }
+            ]
+        }
+    ]
+}

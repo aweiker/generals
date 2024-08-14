@@ -1,0 +1,192 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://github.com/aweiker/generals/schema.json",
+    "description": "Defines an evony General",
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["name", "skill", "specialties"],
+
+    "properties": {
+        "$schema": {
+            "type": "string",
+            "description": "The reference to this schema"
+        },
+        "name": {
+            "type": "string",
+            "description": "The name of the general"
+        },
+        "skill": {
+            "description": "The primary skill of the general.",
+            "$ref": "#/$defs/skill"
+        },
+        "ascensions": {
+            "type": "array",
+            "description": "The skills the general has when ascended.",
+            "items": { "$ref": "#/$defs/ascensionSkill"},
+            "length": 5
+        },
+        "specialties" : {
+            "type": "array",
+            "description": "The specialties the general has.",
+            "items": {
+                "type": "array",
+                "$ref": "#/$defs/specialty"
+            },
+            "length": 4
+        },
+        "skin": {
+            "$ref": "#/$defs/skin",
+            "description": "The skin of the general"
+        }
+    },
+
+    "$defs": {
+        "skill": {
+            "type": "object",
+            "required": ["title", "description", "buffs"],
+            "additionalProperties": false,
+            "properties": {
+                "title": {
+                    "type": "string",
+                    "description": "The name of the skill"
+                },
+                "description": {
+                    "type": "string",
+                    "description": "A description of the skill as it appears on the general"
+                },
+                "buffs": {
+                    "type": "object",
+                    "$ref": "#/$defs/buffs",
+                    "description": "The skill buffs the general provides"
+                }
+            }
+        },
+        "skin": {
+            "type": "object",
+            "required": ["title", "buffs"],
+            "additionalProperties": false,
+            "properties": {
+                "title": {
+                    "type": "string",
+                    "description": "The name of the skin"
+                },
+                "buffs": {
+                    "$ref": "#/$defs/buffs",
+                    "description": "The skin buffs the general provides"
+                }
+            }
+        },
+        "ascensionSkill": {
+            "type": "object",
+            "required": ["description", "buffs"],
+            "additionalProperties": false,
+            "properties": {
+                "description": {
+                    "type": "string",
+                    "description": "A description of the ascension as it appears on the general"
+                },
+                "buffs": {
+                    "$ref": "#/$defs/buffs",
+                    "description": "The asscension buffs the general provides"
+                }
+            }
+        },
+        "specialty": {
+            "type": "object",
+            "properties": {
+                "title": {
+                    "type": "string",
+                    "description": "The name of the specialty"
+                },
+                "levels": {
+                    "items": {
+                        "$ref": "#/$defs/buffs"
+                    },
+                    "length": 5
+                }
+            }
+        },
+        "buffs": {
+            "type": "object",
+            "minProperties": 1,
+            "additionalProperties": false,
+            "properties": {
+                "ground": {
+                    "$ref": "#/$defs/attributes",
+                    "description": "The buffs the general provides to ground troops"
+                },
+                "mounted": {
+                    "$ref": "#/$defs/attributes",
+                    "description": "The buffs the general provides to mounted troops"
+                },
+                "range": {
+                    "$ref": "#/$defs/attributes",
+                    "description": "The buffs the general provides to ranged troops"
+                },
+                "siege": {
+                    "$ref": "#/$defs/attributes",
+                    "description": "The buffs the general provides to siege troops"
+                },
+                "enemy_ground": {
+                    "$ref": "#/$defs/attributes",
+                    "description": "The buffs the general provides to ground troops"
+                },
+                "enemy_mounted": {
+                    "$ref": "#/$defs/attributes",
+                    "description": "The buffs the general provides to mounted troops"
+                },
+                "enemy_range": {
+                    "$ref": "#/$defs/attributes",
+                    "description": "The buffs the general provides to ranged troops"
+                },
+                "enemy_siege": {
+                    "$ref": "#/$defs/attributes",
+                    "description": "The buffs the general provides to siege troops"
+                },
+                "monster": {
+                    "type": "object",
+                    "$ref": "#/$defs/attributes",
+                    "description": "The buffs the general provides to monsters"
+                },
+                "marchSize": {
+                    "type": "number",
+                    "description": "The percent increase in march size the general provides"
+                },
+                "marchSpeed": {
+                    "type": "number",
+                    "description": "The percent increase in march speed the general provides"
+                },
+                "doubleDrop": {
+                    "type": "number",
+                    "description": "Double drop rate of that the general provides"
+                },
+                "trainingSpeed": {
+                    "type": "number",
+                    "description": "The Subordinate Training Speed increase the general provides"
+                },
+                "deathToSurvival": {
+                    "type": "number",
+                    "description": "The Death into Survival Rate increase the general provides"
+                }
+            }
+        },
+        "attributes": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "attack": {
+                    "type": "number",
+                    "description": "The attack value of the general"
+                },
+                "defense": {
+                    "type": "number",
+                    "description": "The defense value of the general"
+                },
+                "hp": {
+                    "type": "number",
+                    "description": "The hit points of the general"
+                }
+            }
+        }
+    }
+}
