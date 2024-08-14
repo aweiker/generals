@@ -17,6 +17,11 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        platform:
+          - linux/arm64
     permissions:
       packages: write
       contents: read
