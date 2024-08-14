@@ -1,6 +1,7 @@
 {
     "$schema": "https://raw.githubusercontent.com/aweiker/generals/main/schema.json",
     "name": "Baldwin IV",
+    "type": "sub city",
     "skill": {
         "title": "Suprise Attack",
         "description": "Reduces enemy ranged troops' attack by 30% and enemy siege machines' attack by 20% when General is leading the army.",

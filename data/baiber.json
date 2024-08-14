@@ -1,6 +1,7 @@
 {
     "$schema": "https://raw.githubusercontent.com/aweiker/generals/main/schema.json",
     "name": "Baiber",
+    "type": "development",
     "skill": {
         "title": "Father of Conquest",
         "description": "Grants you a 25% Double Item Drop Rate from Monsters when General is leading the army.",

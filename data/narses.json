@@ -1,0 +1,242 @@
+{
+    "$schema": "https://raw.githubusercontent.com/aweiker/generals/main/schema.json",
+    "name": "Narses",
+    "type": "sub city",
+    "skill": {
+        "title": "Hammer of the Goths",
+        "description": "Reduces enemy ground troops' attack by 50% and enemy ground troops and mounted troops' defense by 40% when General is leading the army.",
+        "buffs": {
+            "enemy_ground": {
+                "attack": 50,
+                "defense": 40
+            },
+            "enemy_mounted": {
+                "defense": 40
+            }
+        }
+    },
+    "ascensions": [
+        {
+            "description": "Enemy Ground Troop and Mounted Troop Defense -10%, Enemy Ranged Troop and Siege Machine HP -20%."
+        },
+        {
+            "description": "Enemy Ground Troop Defense -20%; when General is the Mayor, Death into Survival Rate in this Subordinate City +20%."
+        },
+        {
+            "description": "Enemy Ground Troop HP -20%; when General is the Mayor, Traning Speed in this Subordinate City +20%."
+        },
+        {
+            "description": "Enemy Ranged Troop and Siege Machine Defense -25% and HP -25%."
+        },
+        {
+            "description": "Enemy Ground Troop Attack -30%, Enemy Ground Troop and Mounted Troop Defense and HP -15%."
+        }
+    ],
+    "specialties": [
+        {
+            "title": "Mounted Troop Assault",
+            "levels": [
+                {
+                    "mounted": {
+                        "attack": 1,
+                        "hp": 1
+                    }
+                },
+                {
+                    "mounted": {
+                        "attack": 1,
+                        "hp": 1
+                    }
+                },
+                {
+                    "mounted": {
+                        "attack": 2,
+                        "hp": 2
+                    }
+                },
+                {
+                    "mounted": {
+                        "attack": 2,
+                        "hp": 2
+                    }
+                },
+                {
+                    "mounted": {
+                        "attack": 4,
+                        "hp": 4
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Snipe",
+            "levels": [
+                {
+                    "enemy_ground": {
+                        "attack": 1
+                    },
+                    "enemy_mounted": {
+                        "attack": 1
+                    },
+                    "enemy_range": {
+                        "attack": 1
+                    },
+                    "enemy_siege": {
+                        "attack": 1
+                    }
+                },
+                {
+                    "enemy_ground": {
+                        "attack": 1
+                    },
+                    "enemy_mounted": {
+                        "attack": 1
+                    },
+                    "enemy_range": {
+                        "attack": 1
+                    },
+                    "enemy_siege": {
+                        "attack": 1
+                    }
+                },
+                {
+                    "enemy_ground": {
+                        "attack": 2
+                    },
+                    "enemy_mounted": {
+                        "attack": 2
+                    },
+                    "enemy_range": {
+                        "attack": 2
+                    },
+                    "enemy_siege": {
+                        "attack": 2
+                    }
+                },
+                {
+                    "enemy_ground": {
+                        "attack": 2
+                    },
+                    "enemy_mounted": {
+                        "attack": 2
+                    },
+                    "enemy_range": {
+                        "attack": 2
+                    },
+                    "enemy_siege": {
+                        "attack": 2
+                    }
+                },
+                {
+                    "enemy_ground": {
+                        "attack": 4
+                    },
+                    "enemy_mounted": {
+                        "attack": 4
+                    },
+                    "enemy_range": {
+                        "attack": 4
+                    },
+                    "enemy_siege": {
+                        "attack": 4
+                    }
+                }
+            ]
+        },
+        {
+            "title": "War God",
+            "levels": [
+                {
+                    "ground": { "attack": 1 },
+                    "mounted": { "attack": 1 },
+                    "range": { "attack": 1 },
+                    "siege": { "attack": 1 }
+                },
+                {
+                    "ground": { "attack": 1 },
+                    "mounted": { "attack": 1 },
+                    "range": { "attack": 1 },
+                    "siege": { "attack": 1 }
+                },
+                {
+                    "ground": { "attack": 1 },
+                    "mounted": { "attack": 1 },
+                    "range": { "attack": 1 },
+                    "siege": { "attack": 1 }
+                },
+                {
+                    "ground": { "attack": 2 },
+                    "mounted": { "attack": 2 },
+                    "range": { "attack": 2 },
+                    "siege": { "attack": 2 }
+                },
+                {
+                    "ground": { "attack": 2 },
+                    "mounted": { "attack": 2 },
+                    "range": { "attack": 2 },
+                    "siege": { "attack": 2 }
+                }
+            ]
+        },
+        {
+            "title": "Battle of Taginae",
+            "levels": [
+                {
+                    "enemy_ground": {
+                        "attack": 3,
+                        "defense": 2,
+                        "hp": 2
+                    },
+                    "enemy_mounted": {
+                        "defense": 2,
+                        "hp": 2
+                    }
+                },
+                {
+                    "enemy_ground": {
+                        "attack": 4,
+                        "defense": 3,
+                        "hp": 3
+                    },
+                    "enemy_mounted": {
+                        "defense": 3,
+                        "hp": 3
+                    }
+                },
+                {
+                    "enemy_ground": {
+                        "attack": 7,
+                        "defense": 5,
+                        "hp": 5
+                    },
+                    "enemy_mounted": {
+                        "defense": 5,
+                        "hp": 5
+                    }
+                },
+                {
+                    "enemy_ground": {
+                        "attack": 7,
+                        "defense": 5,
+                        "hp": 5
+                    },
+                    "enemy_mounted": {
+                        "defense": 5,
+                        "hp": 5
+                    }
+                },
+                {
+                    "enemy_ground": {
+                        "attack": 14,
+                        "defense": 10,
+                        "hp": 10
+                    },
+                    "enemy_mounted": {
+                        "defense": 10,
+                        "hp": 10
+                    }
+                }
+            ]
+        }
+    ]
+}
