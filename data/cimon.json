@@ -1,59 +1,61 @@
 {
     "$schema": "https://raw.githubusercontent.com/aweiker/generals/main/schema.json",
-    "name": "Baldwin IV",
+    "name": "Cimon",
     "skill": {
-        "title": "Suprise Attack",
-        "description": "Reduces enemy ranged troops' attack by 30% and enemy siege machines' attack by 20% when General is leading the army.",
+        "title": "Delian League",
+        "description": "Reduces enemy ranged troops and siege machines' attack by 40% and enemy siege machines' defense and HP by 30% when General is leading the army.",
         "buffs": {
             "enemy_range": {
-                "attack": 30
+                "attack": 40,
+                "defense": 30,
+                "hp": 30
             },
             "enemy_siege": {
-                "attack": 20
+                "attack": 40,
+                "defense": 30,
+                "hp": 30
             }
         }
     },
     "ascensions": [
         {
-            "description": "Enemy Ranged Troop and Siege Machine Attack -5% and HP -10%",
+            "description": "Enemy Ground Troop and Mounted Troop Attack -10%, Defense and HP -10%",
             "buffs": {
-                "enemy_range": {
-                    "attack": 5,
+                "enemy_ground": {
+                    "attack": 10,
+                    "defense": 10,
                     "hp": 10
                 },
-                "enemy_siege": {
-                    "attack": 5,
+                "enemy_mounted": {
+                    "attack": 10,
+                    "defense": 10,
                     "hp": 10
                 }
             }
         },
         {
-            "description": "Enemy Ranged Troop and Siege Machine Defense -10%; when General is the Mayor, Training Speed in this Subordinate City +20%",
+            "description": "Enemy Ground Troop and Mounted Troop Defense -20%; when General is the Mayor, Death into Survival Rate in this Subordinate City +10%",
             "buffs": {
-                "enemy_range": {
-                    "defense": 10
+                "enemy_ground": {
+                    "defense": 20
                 },
-                "enemy_siege": {
-                    "defense": 10
-                },
-                "trainingSpeed": 20
-            }
-        },
-        {
-            "description": "Enemy Ranged Troop and Siege Machine HP -15%; when General is the Mayor, Death into Survival Rate in this Subordinate City +10%",
-            "buffs": {
-                "enemy_range": {
-                    "hp": 15
-                },
-                "enemy_siege": {
-                    "hp": 15
+                "enemy_mounted": {
+                    "defense": 20
                 },
                 "deathToSurvival": 10
             }
         },
         {
-            "description": "Enemy Ranged Troop and Siege Machine Attack -10% and Defense -10%",
+            "description": "Enemy Troop Attack -10% and Defense -10%",
             "buffs": {
+                "enemy_ground": {
+                    "attack": 10,
+                    "defense": 10
+                },
+                "enemy_mounted": {
+                    "attack": 10,
+                    "defense": 10
+                },
                 "enemy_range": {
                     "attack": 10,
                     "defense": 10
@@ -65,13 +67,23 @@
             }
         },
         {
-            "description": "Enemy Ranged Troop and Siege Machine Attack, Defense and HP -10%",
+            "description": "Enemy Ranged Troop and Siege Machine Attack -15%, Defense and HP -15%",
             "buffs": {
                 "enemy_range": {
-                    "attack": 10,
-                    "defense": 10,
-                    "hp": 10
+                    "attack": 15,
+                    "defense": 15,
+                    "hp": 15
                 },
+                "enemy_siege": {
+                    "attack": 15,
+                    "defense": 15,
+                    "hp": 15
+                }
+            }
+        },
+        {
+            "description": "Enemy Siege Machine Attack -10%, Defense and HP -10%",
+            "buffs": {
                 "enemy_siege": {
                     "attack": 10,
                     "defense": 10,
@@ -80,54 +92,37 @@
             }
         }
     ],
-    "skin": {
-        "title": "Divin Guardian - Baldwin IV",
-        "buffs": {
-            "enemy_ground": {
-                "hp": 10
-            },
-            "enemy_mounted": {
-                "hp": 10
-            },
-            "enemy_range": {
-                "attack": 5
-            },
-            "enemy_siege": {
-                "attack": 5
-            }
-        }
-    },
     "specialties": [
         {
-            "title": "Mounted Troop Assault",
+            "title": "Ground Troop Defense",
             "levels": [
                 {
-                    "mounted": {
-                        "attack": 1,
+                    "ground": {
+                        "defense": 1,
                         "hp": 1
                     }
                 },
                 {
-                    "mounted": {
-                        "attack": 1,
+                    "ground": {
+                        "defense": 1,
                         "hp": 1
                     }
                 },
                 {
-                    "mounted": {
-                        "attack": 2,
+                    "ground": {
+                        "defense": 2,
                         "hp": 2
                     }
                 },
                 {
-                    "mounted": {
-                        "attack": 2,
+                    "ground": {
+                        "defense": 2,
                         "hp": 2
                     }
                 },
                 {
-                    "mounted": {
-                        "attack": 4,
+                    "ground": {
+                        "defense": 4,
                         "hp": 4
                     }
                 }
@@ -150,7 +145,6 @@
                         "attack": 1
                     }
                 },
-
                 {
                     "enemy_ground": {
                         "attack": 1
@@ -210,96 +204,86 @@
             ]
         },
         {
-            "title": "Mounted Troop Ares",
+            "title": "Unparalleled Leader",
             "levels": [
                 {
-                    "mounted": {
-                        "attack": 1,
-                        "defense": 1,
-                        "hp": 1
-                    }
+                    "deathToWounded": 1
                 },
                 {
-                    "mounted": {
-                        "attack": 1,
-                        "defense": 1,
-                        "hp": 1
-                    }
+                    "deathToWounded": 1
                 },
                 {
-                    "mounted": {
+                    "deathToWounded": 2
+                },
+                {
+                    "deathToWounded": 2
+                },
+                {
+                    "deathToWounded": 4
+                }
+            ]
+        },
+        {
+            "title": "Ten Strategoi",
+            "levels": [
+                {
+                    "enemy_range": {
+                        "attack": 2,
+                        "defense": 2,
+                        "hp": 2
+                    },
+                    "enemy_siege": {
                         "attack": 2,
                         "defense": 2,
                         "hp": 2
                     }
                 },
                 {
-                    "mounted": {
-                        "attack": 2,
+                    "enemy_range": {
+                        "attack": 3,
+                        "defense": 2,
+                        "hp": 2
+                    },
+                    "enemy_siege": {
+                        "attack": 3,
                         "defense": 2,
                         "hp": 2
                     }
                 },
                 {
-                    "mounted": {
-                        "attack": 4,
+                    "enemy_range": {
+                        "attack": 5,
+                        "defense": 4,
+                        "hp": 4
+                    },
+                    "enemy_siege": {
+                        "attack": 5,
                         "defense": 4,
                         "hp": 4
                     }
-                }
-            ]
-        },
-        {
-            "title": "Battle of Montgisard",
-            "levels": [
-                {
-                    "enemy_range": {
-                        "attack": 2,
-                        "hp": 1
-                    },
-                    "enemy_siege": {
-                        "attack": 2,
-                        "hp": 1
-                    }
                 },
                 {
                     "enemy_range": {
-                        "attack": 2,
-                        "hp": 1
-                    },
-                    "enemy_siege": {
-                        "attack": 2,
-                        "hp": 1
-                    }
-                },
-                {
-                    "enemy_range": {
-                        "attack": 4,
-                        "hp": 2
-                    },
-                    "enemy_siege": {
-                        "attack": 4,
-                        "hp": 2
-                    }
-                },
-                {
-                    "enemy_range": {
-                        "attack": 4,
-                        "hp": 2
-                    },
-                    "enemy_siege": {
-                        "attack": 4,
-                        "hp": 2
-                    }
-                },
-                {
-                    "enemy_range": {
-                        "attack": 8,
+                        "attack": 5,
+                        "defense": 4,
                         "hp": 4
                     },
                     "enemy_siege": {
-                        "attack": 8,
+                        "attack": 5,
+                        "defense": 4,
                         "hp": 4
+                    }
+                },
+                {
+                    "enemy_range": {
+                        "attack": 10,
+                        "defense": 8,
+                        "hp": 8
+                    },
+                    "enemy_siege": {
+                        "attack": 10,
+                        "defense": 8,
+                        "hp": 8
                     }
                 }
             ]

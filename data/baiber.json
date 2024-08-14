@@ -1,5 +1,5 @@
 {
-    "$schema": "../schema.json",
+    "$schema": "https://raw.githubusercontent.com/aweiker/generals/main/schema.json",
     "name": "Baiber",
     "skill": {
         "title": "Father of Conquest",

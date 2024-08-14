@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://github.com/aweiker/generals/schema.json",
+    "$id": "https://raw.githubusercontent.com/aweiker/generals/main/schema.json",
     "description": "Defines an evony General",
     "type": "object",
     "additionalProperties": false,
@@ -29,7 +29,6 @@
             "type": "array",
             "description": "The specialties the general has.",
             "items": {
-                "type": "array",
                 "$ref": "#/$defs/specialty"
             },
             "length": 4
@@ -99,9 +98,12 @@
                     "description": "The name of the specialty"
                 },
                 "levels": {
+                    "type": "array",
                     "items": {
                         "$ref": "#/$defs/buffs"
                     },
+                    "minItems": 5,
+                    "maxItems" : 5,
                     "length": 5
                 }
             }
@@ -167,6 +169,10 @@
                 "deathToSurvival": {
                     "type": "number",
                     "description": "The Death into Survival Rate increase the general provides"
+                },
+                "deathToWounded": {
+                    "type": "number",
+                    "description": "The Death turning Wounded Rate increase the general provides"
                 }
             }
         },
