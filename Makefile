@@ -1,6 +1,6 @@
 .PHONY: run test
 
-app/models.py: schema.json
+app/models.py: venv schema.json
 	$(VENV)/datamodel-codegen --input schema.json --output app/models.py --class-name General --input-file-type jsonschema
 
 run: app/models.py venv

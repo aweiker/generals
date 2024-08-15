@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>General Data</title>
+</head>
+<body>
+    <h1>Generals</h1>
+    <table>
+        <tr>
+            <th>Name</th><th>Type</th>
+        </tr>
+    {% for gen in generals %}
+        <tr>
+            <td>{{ gen.name }}</td>
+            <td>{{ gen.type }}</td>
+        </tr>
+    {% endfor %}
+
+    </table>
+</body>
+</html>
