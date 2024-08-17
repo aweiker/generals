@@ -2,7 +2,7 @@
     "json.schemas": [
     {
         "fileMatch": [
-            "**.json", "!/.vscode/**"
+            "./data/**.json", "!/.vscode/**"
         ],
         "url": "https://raw.githubusercontent.com/aweiker/generals/main/schema.json"
     }

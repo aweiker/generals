@@ -1,0 +1,14 @@
+{
+    "name": "ui5.general",
+    "version": "0.0.1",
+    "private": true,
+    "author": "Aaron Weiker",
+    "description": "User interface for the General project",
+    "scripts": {
+        "start": "ui5 serve -o test/mockServer.html",
+        "build": "ui5 build --all --clean-dest"
+    },
+    "devDependencies": {
+        "ui5-middleware-simpleproxy": "^3.2.18"
+    }
+}
