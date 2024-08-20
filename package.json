@@ -9,6 +9,10 @@
         "build": "ui5 build --all --clean-dest"
     },
     "devDependencies": {
+        "@ui5/cli": "^4.0.4",
         "ui5-middleware-simpleproxy": "^3.2.18"
+    },
+    "dependencies": {
+        "@sap/cds-dk": "^8.1.2"
     }
 }

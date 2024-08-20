@@ -16,7 +16,7 @@
         </landmarkInfo>
         <content>
             <mvc:XMLView viewName="ui5.general.view.HelloPanel" />
-            <mvc:XMLView viewName="ui5.general.view.InvoiceList" />
+            <mvc:XMLView viewName="ui5.general.view.GeneralList" />
         </content>
     </Page>
 </mvc:View>

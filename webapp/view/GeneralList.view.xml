@@ -1,0 +1,52 @@
+<mvc:View
+    controllerName="ui5.general.controller.GeneralList"
+    xmlns="sap.m"
+    xmlns:mvc="sap.ui.core.mvc"
+>
+    <Panel accessibleRole="Region">
+        <headerToolbar>
+            <Toolbar>
+                <Title text="{i18n>generalListTitle}" />
+                <ToolbarSpacer />
+                <SearchField
+                    width="50%"
+                    search=".onFilterGeneral"
+                />
+            </Toolbar>
+        </headerToolbar>
+
+        <Table
+            id="generalList"
+            class="sapUiResponsiveMargin"
+            width="auto"
+            items="{
+                path: 'invoice>/Invoices',
+                sorter: {
+                    path: 'type',
+                    group: true
+                }
+            }"
+        >
+            <headerToolbar>
+                <Toolbar>
+                    <Title text="{i18n>generalListTitle}" />
+                </Toolbar>
+            </headerToolbar>
+            <columns>
+                <Column>
+                    <Text text="{i18n>columnName}" />
+                </Column>
+            </columns>
+            <items>
+                <ColumnListItem
+                    type="Navigation"
+                    press=".onPress"
+                >
+                    <cells>
+                        <ObjectIdentifier title="{invoice>name}" />
+                    </cells>
+                </ColumnListItem>
+            </items>
+        </Table>
+    </Panel>
+</mvc:View>

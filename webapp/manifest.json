@@ -11,8 +11,8 @@
         },
         "dataSources": {
             "invoiceRemote": {
-                "uri": "V2/Northwind/Northwind.svc/",
-                "type": "OData",
+                "uri": "generals/generals/",
+                "type": "JSON",
                 "settings": {
                     "odataVersion": "2.0",
 					"localUri": "localService/metadata.xml"
